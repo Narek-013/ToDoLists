@@ -1,0 +1,27 @@
+.editItems > form{
+    display: flex;
+    gap: 8px;
+    width: 150px;
+    button{
+        margin-left: 30px;
+
+    }
+    img{
+        width: 23px;
+        height: 23px;
+    }
+
+    input{
+        outline: none;
+        background-color: transparent;
+        border: none;
+        text-align: center;
+        font-size: 18px;
+        width: 150px;
+        color: #9E78CF;
+        &::placeholder{
+
+            color: #777777;
+        }
+    }
+}

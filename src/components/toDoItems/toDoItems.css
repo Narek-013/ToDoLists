@@ -1,0 +1,81 @@
+.toDoBlock{
+    display: flex;
+    flex-direction: column;
+    row-gap: 19px;
+}
+
+
+
+h3{
+color: #777777;
+}
+
+
+.toDoBlockItems{
+    overflow-y: scroll;
+    scrollbar-color: #0D0714  #3E1671;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 432px;
+    height: 400px;
+    row-gap: 5px;
+}
+
+.toDoss{
+    padding: 6px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 38px;
+    vertical-align: middle;
+    border-radius: 8px;
+    background-color: #15101C;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  accent-color: rgb(1, 77, 8);
+}
+
+input[type="checkbox"]:hover {
+    accent-color:#15101C ;
+}
+
+
+
+.toDoss > p{
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #9E78CF;
+}
+
+.imgs {
+    display: flex;
+    gap: 8px;
+}
+.imgs > img {
+    width: 25px;
+    height: 25px;
+    border-radius: 24%;
+}
+
+.delImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 24%;
+    color: rgb(169, 7, 7);
+    /* border: 1px solid #261240; */
+}
+
+.line{
+    text-decoration: line-through;
+    text-decoration-color: #15101C;
+    }
